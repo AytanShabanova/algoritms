@@ -1,7 +1,9 @@
 package bitwiseOperations;
 
 public class BitwiseOperations {
-    public static void main(String[] args) {
+    BitwiseOperations bitwiseOperations=new BitwiseOperations();
+
+    public  static void main(String[] args) {
         System.out.println(51 & 25); //17
         System.out.println(51 | 25); //59
         System.out.println(51 ^ 25); //42
@@ -9,6 +11,7 @@ public class BitwiseOperations {
         System.out.println(12 << 2);//48
         System.out.println(12 >> 2);//3
         operations(10,13);
+
 
 
     }
