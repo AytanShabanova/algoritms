@@ -1,9 +1,12 @@
 package stars;
 
+import com.sun.tools.javac.Main;
+
 public class Example {
     public static void main(String[] args) {
         example5(6,6);
     }
+
 
 
 
